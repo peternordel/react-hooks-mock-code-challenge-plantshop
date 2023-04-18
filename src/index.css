@@ -17,6 +17,7 @@ h2 {
 }
 
 button {
+  border-radius: 5px;
   padding: 0.25rem 1rem;
   font-family: inherit;
   border: none;
@@ -55,6 +56,7 @@ main {
   padding: 2rem 1rem;
   margin: 2rem 0;
   background-color: rgba(181, 250, 181, 0.5);
+  border-radius: 10px;
 }
 
 .new-plant-form form {
@@ -63,11 +65,13 @@ main {
 }
 
 .new-plant-form input {
+  border-radius: 5px;
   margin-right: 2rem;
   flex: 1;
 }
 
 .new-plant-form button {
+  border-radius: 5px;
   width: 150px;
 }
 
@@ -97,6 +101,23 @@ input:focus {
   border-bottom: 2px solid var(--green);
 }
 
+.edit-price-input-box {
+  width: 50%;
+  font-size: 1em;
+  padding: none;
+  border: none;
+  font-family: inherit;
+  border-bottom: none;
+  transition: all 0.2s;
+  background:lightyellow;
+  font-weight: bold;
+}
+
+.edit-price-input-box:focus {
+  outline: none;
+  border-bottom: none;
+}
+
 .cards {
   list-style: none;
 }
@@ -107,6 +128,7 @@ input:focus {
 
 .card img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .card button {
